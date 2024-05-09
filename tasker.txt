@@ -1,0 +1,41 @@
+<html>
+ <head>
+ <title>Online-Book-Store</title>
+ 
+ </head>
+ <body>
+ <center>
+ <img src="obs2.jpg" width="450px"
+ height="150px"
+ alt="Logo"
+ title="logo"/>
+ <h1>Welcome To Online Book Store</h1>
+ <h3><p>Here you can search any type of book in this store</p></h3>
+ </center>
+ <img
+ src="obs logo.jpg"
+ width="200px"
+ height="150px"
+ alt="Logo"
+ title="logo"
+ />
+ <h2>Categories</h2>
+ <ul>
+ <li>Adventurous</li>
+ <li>Thriller</li>
+ <li>Romance</li>
+ <li>Harry Potter</li>
+ <li>Horrer</li>
+ </ul>
+ <center>
+ <form method="post" action="./login.html">
+ <input type="submit" value="check-list" />
+ </form>
+ </center>
+ <footer className="App-footer">
+ <div className="container">
+ <p>&copy; 2024 Online Book Store</p>
+ </div>
+ </footer>
+ </body>
+</html>

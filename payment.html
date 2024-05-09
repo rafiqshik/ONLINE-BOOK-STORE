@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Payment Details</h2>
+        <form id="paymentForm">
+            <div class="form-group">
+                <label for="First Name">First Name</label>
+                <input type="text" class="form-control" id="First Name" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+                <label for="Last Name">Last Name</label>
+                <input type="text" class="form-control" id="Last Name" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <label for="Email Adress">Email Adress</label>
+                <input type="text" class="form-control" id="Email Adress" placeholder="Email Adress" required>
+            </div>
+            <div class="form-group">
+                <label for="Gender">Gender</label>
+                <input type="text" class="form-control" id="Gender" placeholder="Gender" required>
+            </div>
+            <div class="form-group ">
+                <label for="Dateofbirth">D-O-F</label>
+                <input type="text" class="form-control" id="Date Of Birth" placeholder="DD/MM/YYYY" required>
+            </div>
+            <div class="form-group">
+                <label for="TelePhone">TelePhone</label>
+                <input type="text" class="form-control" id="TelePhone" placeholder="TelePhone" required>
+            </div>
+            <div class="form-group">
+                <label for="cardNumber">Card Number</label>
+                <input type="text" class="form-control" id="cardNumber" placeholder="Enter card number" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="UPI Payment">UPI Payment</label>
+                    <input type="text" class="form-control" id="UPI Payment" placeholder="UPI Payment" required>
+                </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="C-O-D">C-O-D</label>
+                                <input type="text" class="form-control" id="C-O-D" placeholder="C-O-D" required>
+                            </div>
+                 </div>
+            <button type="submit" class="btn"> <a href="confirm.html">Pay Now </button></a>
+        </form>
+        <div id="paymentResult"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="payment.js"></script> <!-- JavaScript file for handling payment -->
+</body>
+</html>
